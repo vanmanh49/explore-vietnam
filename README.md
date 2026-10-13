@@ -29,7 +29,12 @@ npm run dev
 
 ## Deployment
 
-Pushing to `main` builds the site and publishes it to GitHub Pages through
-`.github/workflows/deploy.yml`.
+The site is published with GitHub Pages from the `gh-pages` branch, which
+holds the built output. To publish a new version, build with the repository
+name as the base path and push `dist/` to that branch:
+
+```bash
+npm run build -- --base=/explore-vietnam/
+```
 
 This is an independent showcase, not an official tourism service.
