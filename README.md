@@ -7,6 +7,8 @@ guide for each place.
 Built with React, TypeScript, Vite, Three.js (React Three Fiber), Framer
 Motion and Tailwind CSS.
 
+![Explore Vietnam home page: the 3D terrain map of Vietnam with glowing destination markers](docs/screenshot.png)
+
 ## Run locally
 
 ```bash
